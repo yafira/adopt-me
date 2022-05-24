@@ -1,0 +1,22 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yafira/adopt-me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yafira/adopt-me/issues"
+  },
+  "homepage": "https://github.com/Yafira/adopt-me#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
