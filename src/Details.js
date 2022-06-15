@@ -20,7 +20,7 @@ class Details extends Component {
         <div>
           <h1>{name}</h1>
           <h2>
-            {animal} {breed} — {city}, {state}
+            {animal} — {breed} — {city}, {state}
           </h2>
           <button>Adopt {name}</button>
           <p>{description}</p>
