@@ -5,12 +5,6 @@ import ErrorBoundary from "./ErrorBoundary";
 import ThemeContext from "./ThemeContext";
 
 class Details extends Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.state = { loading: true };
-  // }
-
   // class property, same as using constructor
   state = { loading: true };
 

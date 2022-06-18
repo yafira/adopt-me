@@ -6,17 +6,14 @@ class ErrorBoundary extends Component {
   static getDerivedStateFromError() {
     return { hasError: true };
   }
-
   componentDidCatch(error, info) {
     console.log(error, info);
   }
-
   componentDidUpdate() {
     if (this.state.hasError) {
       setTimeout(() => this.setState({ redirect: true }), 5000);
     }
   }
-
   render() {
     if (this.state.redirect) {
       return <Navigate to="/" />;
