@@ -8,7 +8,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "build": "CI= react-scripts build"
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,8 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": [
     "last 2 Chrome versions"
